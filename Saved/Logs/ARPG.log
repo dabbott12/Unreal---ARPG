@@ -6168,3 +6168,744 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2021.04.29-01.42.20:779][179]LogSavePackage: Moving '../../../../../../Users/Daniel-A/Documents/Unreal Projects/ARPG/Saved/PlayerD2B655CA4084C11235E7B39F2EC1B24E.tmp' to '../../../../../../Users/Daniel-A/Documents/Unreal Projects/ARPG/Content/Blueprints/Player.uasset'
 [2021.04.29-01.42.20:790][179]AssetCheck: New page: Asset Save: Player
 [2021.04.29-01.42.20:790][179]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player.Player
+[2021.04.29-01.43.19:913][960]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.04.29-01.43.19:924][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.04.29-01.43.19:924][960]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.19:924][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.04.29-01.43.19:965][960]LogSlate: Window 'ARPG - Unreal Editor' being destroyed
+[2021.04.29-01.43.20:075][961]Cmd: QUIT_EDITOR
+[2021.04.29-01.43.20:075][961]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.04.29-01.43.20:077][961]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.04.29-01.43.20:892][961]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.04.29-01.43.20:892][961]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.04.29-01.43.20:892][961]LogAudio: Display: Audio Device unregistered from world 'MainLevel'.
+[2021.04.29-01.43.20:892][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.29-01.43.20:893][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.04.29-01.43.20:923][961]LogAudio: Display: Audio Device Manager Shutdown
+[2021.04.29-01.43.20:923][961]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.04.29-01.43.20:927][961]LogExit: Preparing to exit.
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A293500] Windows
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A293400] Default__DeviceProfile
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268D00] WindowsNoEditor
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A290D00] WindowsServer
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26AD00] WindowsClient
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A292C00] IOS
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269600] iPadAir
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A291500] iPadAir2
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A204800] IPadPro
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A204900] iPadAir3
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A292600] iPadAir4
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A207500] iPadMini2
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A291A00] iPadMini3
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A206000] iPadMini4
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A293D00] iPadMini5
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268C00] iPhone6
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268A00] iPodTouch6
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CFE00] iPhone7
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CFF00] iPodTouch7
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B700] iPhone5S
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CD200] iPhone6Plus
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B100] iPhone6S
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE700] iPhone6SPlus
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268300] iPhone7Plus
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CDA00] iPhoneSE
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26AF00] iPhone8
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CCA00] iPhone8Plus
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26A200] iPhoneX
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CC900] iPhoneXS
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268400] iPhoneXSMax
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CFB00] iPhoneXR
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B300] iPhone11
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CF100] iPhone11Pro
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26A000] iPhone11ProMax
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CD700] iPhoneSE2
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B900] iPhone12Mini
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CFA00] iPhone12
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B400] iPhone12Pro
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE200] iPhone12ProMax
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268700] iPadPro105
+[2021.04.29-01.43.21:857][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE800] iPadPro129
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268F00] iPadPro97
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CDB00] iPadPro2_129
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268800] iPad5
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CFC00] iPad6
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269F00] iPad7
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CEC00] iPad8
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26A400] iPadPro11
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE000] iPadPro2_11
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26B600] iPadPro3_129
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CC600] iPadPro4_129
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269A00] AppleTV
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CD600] AppleTV4K
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26BE00] TVOS
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CC700] Mac
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268200] MacClient
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CC200] MacNoEditor
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26BB00] MacServer
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CCC00] Linux
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269100] LinuxNoEditor
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CF600] LinuxAArch64NoEditor
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269C00] LinuxClient
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CDD00] LinuxAArch64Client
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A206200] LinuxServer
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D8A00] LinuxAArch64Server
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A204A00] Android
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D9000] Android_Low
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A206700] Android_Mid
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D8700] Android_High
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A206400] Android_Default
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D9100] Android_Adreno4xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A205200] Android_Adreno5xx_Low
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D9900] Android_Adreno5xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A207E00] Android_Adreno6xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D9200] Android_Adreno6xx_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A204300] Android_Mali_T6xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D9D00] Android_Mali_T7xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A206D00] Android_Mali_T8xx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D8100] Android_Mali_G71
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A207A00] Android_Mali_G72
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A2D8C00] Android_Mali_G72_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CCF00] Android_Mali_G76
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26AA00] Android_Mali_G76_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE500] Android_Mali_G77
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26AE00] Android_Mali_G77_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CC500] Android_Vulkan_SM5
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269D00] Android_PowerVR_G6xxx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CD400] Android_PowerVR_GT7xxx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26AB00] Android_PowerVR_GE8xxx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CEB00] Android_PowerVR_GM9xxx
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A26A800] Android_PowerVR_GM9xxx_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CE600] Android_TegraK1
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A269E00] Android_Unknown_Vulkan
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CEA00] Lumin
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A268B00] Lumin_Desktop
+[2021.04.29-01.43.21:858][961]LogDeviceProfile: Device profile begin destroy: [0000021B9A1CDE00] HoloLens
+[2021.04.29-01.43.21:864][961]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:867][961]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:871][961]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:873][961]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:876][961]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:879][961]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:921][961]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.04.29-01.43.21:924][961]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.04.29-01.43.21:926][961]LogExit: Editor shut down
+[2021.04.29-01.43.21:927][961]LogExit: Transaction tracking system shut down
+[2021.04.29-01.43.22:132][961]LogExit: Object subsystem successfully closed.
+[2021.04.29-01.43.22:163][961]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (836)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module Voice (834)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module BlueprintGraph (832)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (830)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (828)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module NewLevelDialog (826)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SequencerWidgets (824)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AnimationEditor (822)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module PinnedCommandList (820)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SkeletonEditor (818)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (816)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SceneOutliner (814)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AddContentDialog (812)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WidgetCarousel (811)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module EditorWidgets (808)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module StatsViewer (806)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (804)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (802)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AutomationWorker (800)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SteamVREditor (798)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module OculusMR (796)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module TextureAlignMode (794)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module BspMode (792)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module GeometryMode (790)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module GooglePADEditor (788)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (786)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (784)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (782)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (780)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (778)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module PlanarCut (776)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (774)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (772)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (770)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (768)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module WebMMedia (766)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (764)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (762)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SequenceRecorder (761)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (758)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (756)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (754)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (752)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (750)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (748)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (746)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module CharacterAI (744)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (742)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (740)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (738)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (736)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SmartSnapping (734)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module SessionServices (732)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module MeshPaint (730)
+[2021.04.29-01.43.22:185][961]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (728)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module FoliageEdit (726)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module LandscapeEditor (724)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module MeshPaintMode (722)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (720)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module ActorPickerMode (718)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module PlacementMode (716)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module ViewportSnapping (714)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module ViewportInteraction (712)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module ClothPainter (710)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (709)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module LogVisualizer (706)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module IntroTutorials (704)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (703)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (700)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (698)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (696)
+[2021.04.29-01.43.22:186][961]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (695)
+[2021.04.29-01.43.23:093][961]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (692)
+[2021.04.29-01.43.23:093][961]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (690)
+[2021.04.29-01.43.23:093][961]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (688)
+[2021.04.29-01.43.23:093][961]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (686)
+[2021.04.29-01.43.23:093][961]LogModuleManager: Shutting down and abandoning module TraceInsights (684)
+[2021.04.29-01.43.23:093][961]MemoryProfiler: Shutdown
+[2021.04.29-01.43.23:093][961]NetworkingProfiler: Shutdown
+[2021.04.29-01.43.23:093][961]LoadingProfiler: Shutdown
+[2021.04.29-01.43.23:093][961]TimingProfiler: Shutdown
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module TraceServices (683)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (680)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (678)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module InputBindingEditor (676)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module MergeActors (674)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (672)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module LocalizationService (671)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module HardwareTargeting (668)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (666)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module UndoHistory (664)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module XmlParser (662)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module Blutility (660)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (658)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (657)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (654)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (653)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module SettingsEditor (650)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module ProjectLauncher (648)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module SessionFrontend (646)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module ProfilerClient (644)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module DeviceManager (642)
+[2021.04.29-01.43.23:094][961]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (641)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module AutomationController (638)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module AutomationWindow (636)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module Layers (634)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (632)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module DetailCustomizations (630)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module PackagesDialog (628)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (626)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module Persona (624)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (623)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module AnimGraph (621)
+[2021.04.29-01.43.23:125][961]LogModuleManager: Shutting down and abandoning module Kismet (618)
+[2021.04.29-01.43.23:134][961]LogModuleManager: Shutting down and abandoning module KismetWidgets (617)
+[2021.04.29-01.43.23:134][961]LogModuleManager: Shutting down and abandoning module GraphEditor (614)
+[2021.04.29-01.43.23:134][961]LogModuleManager: Shutting down and abandoning module StructViewer (612)
+[2021.04.29-01.43.23:134][961]LogModuleManager: Shutting down and abandoning module ClassViewer (610)
+[2021.04.29-01.43.23:135][961]LogModuleManager: Shutting down and abandoning module Toolbox (608)
+[2021.04.29-01.43.23:135][961]LogModuleManager: Shutting down and abandoning module ModuleUI (606)
+[2021.04.29-01.43.23:135][961]LogModuleManager: Shutting down and abandoning module OutputLog (604)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module GammaUI (602)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module Documentation (600)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module LiveCoding (598)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module LevelSequence (596)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (594)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module MovieScene (592)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (590)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module LauncherPlatform (588)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module AnalyticsET (586)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module PortalServices (584)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module PortalRpc (582)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module MessagingRpc (580)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (578)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module AudioMixerCore (577)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module AIModule (574)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module GameplayDebugger (573)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module AITestSuite (571)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module NavigationSystem (569)
+[2021.04.29-01.43.23:136][961]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (566)
+[2021.04.29-01.43.23:140][961]LogModuleManager: Shutting down and abandoning module ProfilerService (564)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module TaskGraph (562)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (560)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (558)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (556)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CollectionManager (555)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module OculusEditor (552)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module OculusInput (550)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (548)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (546)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module PluginBrowser (544)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (542)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CurveEditorTools (540)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (538)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CryptoKeys (536)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module SynthesisEditor (534)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module Synthesis (532)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (530)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (528)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (526)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ScreenshotTools (524)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (500)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (498)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (494)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MotoSynth (492)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MediaCompositing (490)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ImgMedia (488)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (486)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (485)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (482)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MeshConversion (480)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module DynamicMesh (478)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (476)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometricObjects (474)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (472)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (470)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (468)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (466)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ChaosNiagara (464)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (462)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module FractureEditor (460)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (459)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (456)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AutomationUtils (454)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module BackChannel (452)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AlembicImporter (450)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module AlembicLibrary (449)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCache (448)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (447)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (442)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (440)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (438)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (436)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (434)
+[2021.04.29-01.43.23:160][961]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (432)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (430)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module UObjectPlugin (428)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (426)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (424)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (422)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (420)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PluginUtils (418)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (416)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (414)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (412)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (410)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module GitSourceControl (408)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module SourceControl (407)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (404)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (402)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (400)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (398)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module Paper2DEditor (396)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (394)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (392)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (390)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module FacialAnimation (388)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (386)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module DataValidation (384)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (382)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module LevelEditor (381)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (380)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (378)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module MainFrame (376)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module HotReload (375)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module ToolMenus (371)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module ContentBrowser (369)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module ContentBrowserData (368)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module TreeMap (365)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module SoundFields (362)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module SignificanceManager (358)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (356)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (354)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (350)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (348)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (346)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module ActorSequence (344)
+[2021.04.29-01.43.23:161][961]LogModuleManager: Shutting down and abandoning module UdpMessaging (342)
+[2021.04.29-01.43.23:262][961]LogModuleManager: Shutting down and abandoning module TcpMessaging (340)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (338)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (336)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (334)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (332)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (330)
+[2021.04.29-01.43.23:362][961]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (328)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (326)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (324)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (322)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapController (320)
+[2021.04.29-01.43.23:362][961]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (318)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module MagicLeapAR (316)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module AugmentedReality (315)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (312)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module Niagara (310)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module SignalProcessing (309)
+[2021.04.29-01.43.23:362][961]LogModuleManager: Shutting down and abandoning module NiagaraEditor (307)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module NiagaraCore (304)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (302)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module AnimationSharing (300)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (298)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (296)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module Paper2D (294)
+[2021.04.29-01.43.23:363][961]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (292)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (290)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (288)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module PacketHandler (286)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module MessageLog (257)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module SlateReflector (252)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module Slate (250)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module SlateCore (248)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2021.04.29-01.43.23:364][961]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (240)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (238)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module XAudio2 (236)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module Core (232)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MovieSceneTools (230)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module CurveEditor (229)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module Sequencer (227)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module EditorStyle (226)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module KismetCompiler (222)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MeshBuilder (220)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MeshUtilities (218)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (217)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (216)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (215)
+[2021.04.29-01.43.23:365][961]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (213)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (211)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (209)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MaterialBaking (205)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (200)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (195)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (193)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (187)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (185)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (183)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (181)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (179)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (177)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (175)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module ImageWrapper (174)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (171)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (169)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (167)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (165)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (163)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (161)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (159)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (157)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (155)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (153)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (151)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (149)
+[2021.04.29-01.43.23:366][961]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (147)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (145)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (143)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (141)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (139)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (137)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (135)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (133)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module Messaging (131)
+[2021.04.29-01.43.23:367][961]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (129)
+[2021.04.29-01.43.23:368][961]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (127)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (125)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module InputCore (122)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module Settings (120)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (118)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module PhysXCooking (116)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module Chaos (114)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (112)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (111)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module AVEncoder (110)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (106)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module SteamVRInput (104)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module SteamVR (102)
+[2021.04.29-01.43.23:370][961]LogHMD: Freeing OpenVRDLLHandle.
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module OculusHMD (100)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (98)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module ChunkDownloader (96)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (94)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2021.04.29-01.43.23:370][961]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2021.04.29-01.43.23:371][961]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2021.04.29-01.43.23:371][961]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2021.04.29-01.43.23:390][961]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2021.04.29-01.43.23:391][961]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.04.29-01.43.23:391][961]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA7C30810-498A-E497-6ED6-AEB4ABB6BAEA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.1-15228867%2B%2B%2BUE4%2BRelease-4.26&UserID=31a870f441a57ef83e34a8b0d2675af6%7Cedace79b3e01471b9957761cd03ee79f%7C471cc2e3-3c29-426e-aa27-2e294a01105c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.04.29-01.43.23:391][961]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2021.04.29-01.43.23:395][961]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2021.04.29-01.43.23:396][961]LogModuleManager: Shutting down and abandoning module WmfMedia (74)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module Media (73)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module MediaInfo (72)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (68)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (60)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module NiagaraShader (58)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module VariantManagerContent (56)
+[2021.04.29-01.43.23:397][961]LogModuleManager: Shutting down and abandoning module DatasmithContent (54)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module AISupportModule (52)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module DesktopPlatform (50)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (48)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (46)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module PlatformCrypto (44)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module TextureCompressor (34)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module RenderCore (32)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module Landscape (30)
+[2021.04.29-01.43.23:398][961]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (28)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module OpenGLDrv (26)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module D3D11RHI (24)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module D3D12RHI (22)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.04.29-01.43.23:399][961]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.04.29-01.43.23:399][961]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.04.29-01.43.23:402][961]LogD3D12RHI: Display: D3D12 ReleaseResources: 190 items to release
+[2021.04.29-01.43.23:402][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName5152", 2175 x 1179 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:402][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName5153", 10262012 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12756", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12755", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12754", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12753", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12752", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12751", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12750", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName2134", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:403][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12749", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12748", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12747", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName620", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName617", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName607", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName608", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName609", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName610", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName611", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName612", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName614", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12760", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:404][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12761", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12790", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12789", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12788", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12787", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12786", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12785", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12784", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12783", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12782", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12781", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12780", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12779", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:405][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12778", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12777", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12776", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12775", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12774", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12773", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12772", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12771", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12770", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12769", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName2126", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName2127", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:406][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName2128", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12768", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12767", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12766", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12765", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12764", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12763", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName618", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12762", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName616", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12759", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName12758", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName26822", 490 x 490 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:407][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName5154", 2175 x 1179 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13118", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13117", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13116", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13115", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13114", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName13113", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName348", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName347", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName354", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName353", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:408][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName352", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName351", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName350", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName349", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBResultsCPU", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBResultsCPU", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBResultsCPU", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBResultsCPU", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HZBResultsCPU", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "Tonemap", 1020 x 808 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUT", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 510 x 404 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 255 x 202 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 128 x 101 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:409][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 64 x 51 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 32 x 26 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomX", 16 x 13 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 16 x 13 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 32 x 26 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 64 x 51 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 128 x 101 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 255 x 202 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BloomY", 510 x 404 x 1, Mips: 1, Format: 0x1A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShadowMaskTexture", 1020 x 808 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:410][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 6144 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 6144 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 6144 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TemporalAA", 1020 x 808 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "PreShadowCacheDepthZ", 4096 x 4096 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 950 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 950 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:411][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 950 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:412][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName369", 2048 x 2048 x 1, Mips: 1, Format: 0x5A, Flags: 0x0
+[2021.04.29-01.43.23:412][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "DaylightAmbientCubemap", 512 x 512 x 6, Mips: 10, Format: 0xA, Flags: 0x0
+[2021.04.29-01.43.23:412][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:412][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "DefaultBloomKernel", 2048 x 2048 x 1, Mips: 1, Format: 0xA, Flags: 0x0
+[2021.04.29-01.43.23:413][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:413][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:414][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:414][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:414][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:414][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:415][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:416][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:417][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:417][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:417][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:417][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:417][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:418][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:419][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "SunsetAmbientCubemap", 512 x 512 x 6, Mips: 10, Format: 0xA, Flags: 0x0
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EpicQuadPanorama_CC+EV1", 512 x 512 x 6, Mips: 10, Format: 0xA, Flags: 0x0
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 16 x 16 x 16, Mips: 1, Format: 0x1E, Flags: 0x4
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "StencilDummy", 1 x 1 x 1, Mips: 1, Format: 0x1E, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "MidGreyDummy", 1 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ZeroUIntDummy", 1 x 1 x 1, Mips: 1, Format: 0x2A, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricBlackDummy", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "DefaultNormal8Bit", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:420][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "GreenDummy", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "MaxFP16Depth", 1 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairCoverageLUT", 64 x 64 x 1, Mips: 1, Format: 0x29, Flags: 0x4
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "BlackAlphaOneDummy", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolumeDir2", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolume2", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolumeDir1", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolume1", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolumeDir0", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TranslucentVolume0", 64 x 64 x 64, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:421][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "LightAccumulation", 1020 x 808 x 1, Mips: 1, Format: 0xA, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "QuadOverdrawBuffer", 1020 x 404 x 1, Mips: 1, Format: 0x2A, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ScreenSpaceAO", 1020 x 808 x 1, Mips: 1, Format: 0x3D, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "SmallDepthZ", 510 x 404 x 1, Mips: 1, Format: 0x13, Flags: 0x2
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "SmallDepthZ", 510 x 404 x 1, Mips: 1, Format: 0x13, Flags: 0x2
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "TemporalAA", 1020 x 780 x 1, Mips: 1, Format: 0xA, Flags: 0x4
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2021.04.29-01.43.23:422][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "D3D12RHIObjectUniqueName2", 36 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ColoredTexture", 1 x 1 x 1, Mips: 1, Format: 0x1B, Flags: 0x4
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2021.04.29-01.43.23:423][961]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2021.04.29-01.43.23:461][961]LogD3D12RHI: ~FD3D12DynamicRHI
+[2021.04.29-01.43.23:477][961]LogExit: Exiting.
+[2021.04.29-01.43.23:482][961]Log file closed, 04/28/21 18:43:23
